@@ -1,0 +1,27 @@
+/*
+  common
+*/
+*{
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+
+  /* ページ内のスクロールを滑らかに */
+  scroll-behavior: smooth;
+}
+
+
+.head-index{
+  z-index: 99;
+}
+
+.container {
+  display: flex;
+}
+
+.flex-r{
+  flex-direction: row-reverse; 
+}
+
+.vertical {
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+}
